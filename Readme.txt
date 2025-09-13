@@ -225,6 +225,8 @@ $ git commit -m "Insert commands"
 [MEDALLE_B3 cb4f8a2] Insert commands
  1 file changed, 57 insertions(+), 1 deletion(-)
 
+--Checkout Branch 4
+
 janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
 $ git checkout MEDALLE_B4
 Switched to branch 'MEDALLE_B4'
@@ -246,4 +248,13 @@ janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
 $ git status
 On branch MEDALLE_B4
 nothing to commit, working tree clean
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git add Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git commit -m "Inserts Commands"
+[MEDALLE_B4 057f5d5] Inserts Commands
+ 1 file changed, 30 insertions(+)
+
 
