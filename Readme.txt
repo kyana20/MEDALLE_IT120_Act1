@@ -257,4 +257,35 @@ $ git commit -m "Inserts Commands"
 [MEDALLE_B4 057f5d5] Inserts Commands
  1 file changed, 30 insertions(+)
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git checkout master
+Switched to branch 'master'
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git checkout MEDALLE_B1 -- Profile.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git checkout MEDALLE_B2 -- Education.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git checkout MEDALLE_B3 -- Background.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git checkout MEDALLE_B4 -- Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Background.txt
+        modified:   Education.txt
+        modified:   Profile.txt
+        modified:   Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git commit -m "All Information combined"
+[master 8e6c0db] All Information combined
+ 4 files changed, 273 insertions(+), 2 deletions(-)
+
 
