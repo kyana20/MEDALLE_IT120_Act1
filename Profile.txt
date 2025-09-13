@@ -5,3 +5,9 @@ Gender: Female
 Age: 20
 Birthday: January 08, 2005
 Contact: 0938319077
+BirthOfPlace: Magallanes Agusan del Norte
+Religion: Roman Catholic
+Father's Name: Ricky M. Medalle
+Occupation: Tricycle Driver
+Mother's Name: Marilyn Medalle
+Occupation: Company Worker
