@@ -257,4 +257,6 @@ $ git commit -m "Inserts Commands"
 [MEDALLE_B4 057f5d5] Inserts Commands
  1 file changed, 30 insertions(+)
 
-
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git checkout MEDALLE_B4
+Switched to branch 'MEDALLE_B4'
