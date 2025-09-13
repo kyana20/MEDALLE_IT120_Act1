@@ -217,3 +217,33 @@ Changes to be committed:
         modified:   Readme.txt
 
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git add Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git commit -m "Insert commands"
+[MEDALLE_B3 cb4f8a2] Insert commands
+ 1 file changed, 57 insertions(+), 1 deletion(-)
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git checkout MEDALLE_B4
+Switched to branch 'MEDALLE_B4'
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git checkout MEDALLE_B3 -- Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git rm Test.py
+rm 'Test.py'
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git commit -m "Removed Test.py"
+[MEDALLE_B4 ac0136e] Removed Test.py
+ 2 files changed, 219 insertions(+), 2 deletions(-)
+ delete mode 100644 Test.py
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B4)
+$ git status
+On branch MEDALLE_B4
+nothing to commit, working tree clean
+
