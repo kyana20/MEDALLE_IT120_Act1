@@ -71,7 +71,7 @@ janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
 $ git commit -m "5 files added"
 [master a307d5f] 5 files added
  4 files changed, 15 insertions(+)
-
+You sent
 janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
 $ git branch MEDALLE_B1
 
@@ -157,7 +157,63 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   Readme.txt
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git add Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git commit -m "Insert commands to Readme.txt"
+[MEDALLE_B3 faa08c7] Insert commands to Readme.txt
+ 1 file changed, 163 insertions(+)
+
+--Checkout Branch 3
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B2)
+$ git checkout MEDALLE_B3
+Switched to branch 'MEDALLE_B3'
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git status
+On branch MEDALLE_B3
+nothing to commit, working tree clean
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git add Backround.txt
+fatal: pathspec 'Backround.txt' did not match any files
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git add Background.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git commit -m "Updated Background.txt and removed Test.py"
+[MEDALLE_B3 81afa33] Updated Background.txt and removed Test.py
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git rm Test.py
+rm 'Test.py'
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git status
+On branch MEDALLE_B3
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Test.py
 
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git commit -m "Remove Test.py"
+[MEDALLE_B3 f8eaf76] Remove Test.py
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 Test.py
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git checkout MEDALLE_B2 -- Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (MEDALLE_B3)
+$ git status
+On branch MEDALLE_B3
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Readme.txt
 
 
