@@ -1,0 +1,7 @@
+FirstName: Kiana Rose
+MiddleName: Baslote
+LastName: Medalle
+Gender: Female
+Age: 20
+Birthday: January 08, 2005
+Contact: 0938319077
