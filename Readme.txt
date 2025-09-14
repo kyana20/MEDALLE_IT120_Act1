@@ -307,6 +307,9 @@ On branch master
 nothing to commit, working tree clean
 
 janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git remote add origin https://github.com/kyana20/MEDALLE_IT120_Act1.git
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
 $ git branch -M main
 
 janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
