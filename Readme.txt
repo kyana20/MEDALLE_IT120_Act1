@@ -284,8 +284,105 @@ Changes to be committed:
         modified:   Readme.txt
 
 janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git add Readme.txt
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git commit -m "All Information combined"
+[master 09fb7a3] All Information combined
+ 1 file changed, 31 insertions(+)
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
 $ git commit -m "All Information combined"
 [master 8e6c0db] All Information combined
  4 files changed, 273 insertions(+), 2 deletions(-)
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
 
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (master)
+$ git branch -M main
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (18/18), 3.01 KiB | 280.00 KiB/s, done.
+Total 18 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/kyana20/MEDALLE_IT120_Act1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git push origin MEDALLE_B1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.55 KiB | 530.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'MEDALLE_B1' on GitHub by visiting:
+remote:      https://github.com/kyana20/MEDALLE_IT120_Act1/pull/new/MEDALLE_B1
+remote:
+To https://github.com/kyana20/MEDALLE_IT120_Act1.git
+ * [new branch]      MEDALLE_B1 -> MEDALLE_B1
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git push origin MEDALLE_B2
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.53 KiB | 781.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'MEDALLE_B2' on GitHub by visiting:
+remote:      https://github.com/kyana20/MEDALLE_IT120_Act1/pull/new/MEDALLE_B2
+remote:
+To https://github.com/kyana20/MEDALLE_IT120_Act1.git
+ * [new branch]      MEDALLE_B2 -> MEDALLE_B2
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git push origin MEDALLE_B3
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 2.11 KiB | 360.00 KiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+remote:
+remote: Create a pull request for 'MEDALLE_B3' on GitHub by visiting:
+remote:      https://github.com/kyana20/MEDALLE_IT120_Act1/pull/new/MEDALLE_B3
+remote:
+To https://github.com/kyana20/MEDALLE_IT120_Act1.git
+ * [new branch]      MEDALLE_B3 -> MEDALLE_B3
+
+janrim@LAPTOP-27NVGUGU MINGW64 ~/MEDALLE_IT120_Act1 (main)
+$ git push origin MEDALLE_B4
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.91 KiB | 489.00 KiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 1 local object.
+remote:
+remote: Create a pull request for 'MEDALLE_B4' on GitHub by visiting:
+remote:      https://github.com/kyana20/MEDALLE_IT120_Act1/pull/new/MEDALLE_B4
+remote:
+To https://github.com/kyana20/MEDALLE_IT120_Act1.git
+ * [new branch]      MEDALLE_B4 -> MEDALLE_B4
